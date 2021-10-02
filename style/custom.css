@@ -1,0 +1,13 @@
+section {
+    background-image: url(/assets/emmanuel-ikwuegbu-MSX3O-Sqa8U-unsplash.jpg);
+    background-repeat: none;
+    background-size: cover;
+}
+
+#porcaria {
+    background-color: aqua;
+   
+    margin: 30% 50% 0% 50%; 
+    max-width: 1000px;
+    max-height: 30px;
+}

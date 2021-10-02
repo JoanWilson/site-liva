@@ -1,19 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Liva Imóveis</title>
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./style/custom.css">
 </head>
+
 <body>
-    <!--Header-->
+    <nav class="navbar is-primary is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+                <img src="./assets/logowhite.png" width="25">
+                <h1 class="is-white">Liva</h1>
+            </a>
+    
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item">
+                    Home
+                </a>
+    
+                <a class="navbar-item">
+                    Serviços
+                </a>
+    
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Mais
+                    </a>
+    
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Sobre
+                        </a>
+                        <a class="navbar-item">
+                            Ajuda
+                        </a>
+                        <a class="navbar-item">
+                            Contato
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary">
+                            <strong>Anúncie</strong>
+                        </a>
+                        <a class="button is-white is-outlined">
+                            Encontre seu imóvel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+      
+      <section class="hero is-fullheight-with-navbar">
+        <div id="porcaria" class="hero-body">
+                <input type="text">
+                <button>Buscar</button>
+          </div>
+        </div>
+      </section>
     <!--Section-->
-    <!--Bla Bla bla-->
-    <!--Bla bla bla-->
-    <!--Sobre-->
-    <!--Footer-->
 </body>
+
 </html>

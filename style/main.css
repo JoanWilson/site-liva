@@ -1,0 +1,11 @@
+.navbar {
+    background-color: #0d1926;
+}
+
+ul#links li{
+    display: inline;
+    float: right;
+}
+img{
+    float: left;
+}
